@@ -1,0 +1,21 @@
+{
+    "name": "tedchain",
+    "version": "0.2.3",
+    "main": "dist/tedchain.js",
+    "ignore": [
+        "lib",
+        "tests",
+        ".gitattributes",
+        ".gitignore",
+        ".npmignore",
+        "bower.json",
+        "gruntFile.js",
+        "package.json",
+        "tedchain-js.njsproj",
+        "tedchain-js.sln",
+        "package.json"
+    ],
+    "dependencies": {
+        "bitcore-lib": "~0.13.11"
+    }
+}

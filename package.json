@@ -1,0 +1,31 @@
+{
+  "name": "tedchain",
+  "version": "0.2.3",
+  "description": "JavaScript client library for Tedchain",
+  "homepage": "https://www.tedchain.network/",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Howard Larrison",
+    "email": "howard.larrison@tedmorning.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tedchain/tedchain-js.git"
+  },
+  "dependencies": {
+    "bitcore-lib": "~0.13.15",
+    "protobufjs": "4.1.3",
+    "httpinvoke": "1.4.0"
+  },
+  "devDependencies": {
+    "assert": "~1.3.0",
+    "browserify": "~12.0.1",
+    "grunt": "~0.4.0",
+    "grunt-browserify": "~4.0.1",
+    "grunt-contrib-jshint": "~0.11.3",
+    "grunt-contrib-uglify": "~0.11.0",
+    "mocha": "~2.3.4",
+    "q": "~1.4.1"
+  }
+}
